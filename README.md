@@ -1,4 +1,4 @@
-# Challenge React30 - Project 2: Click App
+# Challenge React30 - Project 8: NavBar
 Essa é uma solução do desafio proposto por [ Saurabh Mhatre: ](https://saurabhnativeblog.medium.com/react30-project-8-building-a-navbar-using-react-router-6910ab5a0268)
 
 
