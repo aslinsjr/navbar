@@ -7,7 +7,7 @@ import { useState } from 'react'
 const Price = () => {
 
   const body = document.querySelector("body")
-  body.style.backgroundImage = "url(public/background-crew-desktop.jpg)"
+  body.style.backgroundImage = "url(/background-crew-desktop.jpg)"
 
   const [index, setIndex] = useState(0)
   const [crew, setCrew] = useState(data.crew[index])

@@ -7,7 +7,7 @@ import { useState } from 'react'
 const Technology = () => {
 
   const body = document.querySelector("body")
-  body.style.backgroundImage = "url(public/background-technology-desktop.jpg)"
+  body.style.backgroundImage = "url(/background-technology-desktop.jpg)"
 
   const [technology, setTechnology] = useState(data.technology[0])
 

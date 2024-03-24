@@ -9,7 +9,7 @@ const Destination = () => {
   const [destination, setDestination] = useState(data.destinations[0])
 
   const body = document.querySelector("body")
-  body.style.backgroundImage = "url(public/background-destination-desktop.jpg)"
+  body.style.backgroundImage = "url(/background-destination-desktop.jpg)"
 
   return (
     <>
