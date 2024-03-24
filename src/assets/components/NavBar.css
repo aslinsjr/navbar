@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    margin: 3rem 2rem;
+    background-color: transparent;
+    gap: 1rem;
+}
+
+.line {
+    width: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-links {
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    padding: 2rem 0.5rem;
+    backdrop-filter: blur(1rem);
+}
+
+.nav-links span {
+    font-weight: bolder;
+}
+
+.nav-links p {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-links a {
+    color: aliceblue;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    transform: scale(1.1);
+}
+
+#mobile-icon {
+    display: none;
+}
+

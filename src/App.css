@@ -1,0 +1,171 @@
+:root {
+  --primary-color: black
+}
+
+body {
+  color: aliceblue;
+  transition: 1s;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-top:-3rem;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+      min-width: 400px;
+      padding: 0;
+      position: relative;
+  }
+
+  .line {
+      display: none;
+  }
+
+  #mobile-icon {
+      display: flex;
+      width: 2rem;
+      z-index: 2;
+      position: absolute;
+      right: 0;
+  }
+
+  .nav-links { 
+      flex-direction: column;
+      display: none;
+      position: absolute;
+      right: -10%;
+      top: 0;
+      padding: 0 1.5em;
+      z-index: 1;
+      height: 120vh;
+      animation: fadeIn 0.5s;
+      transition: 0.5s;
+  }
+
+  .nav-links a:hover {
+      transform: none;
+  }
+
+  .home-container {
+    max-width: 100%;
+  }
+
+  .destination-container {
+    padding: 0 0.5rem;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .title {
+    margin: 0.5rem;
+  }
+
+  .select-container {
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  #description {
+    font-size: 0.9rem;
+}
+
+.destination-travel-info span {
+  font-size: 1.2rem;
+}
+
+.destination-travel-info p {
+  margin-bottom: 0.2rem;
+}
+
+.crew-container {
+  padding: 0 1rem;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#crew-img {
+  max-width: 50%;
+}
+
+.crew-description {
+  max-width: 100%;
+}
+
+.crew-description h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.crew-description p {
+  line-height: 130%;
+  font-size: 0.9rem;
+}
+
+.selector-container {
+  margin-top: 1rem;
+}
+
+.crew-btn {
+  width: 10px;
+  height: 10px;
+}
+
+.technology-container {
+  gap: 0.5rem;
+  padding: 0 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  animation: fadeIn 1s;
+  transition: 1s;
+}
+
+#technology-img {
+  max-width: 50%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.technology-description h2 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.technology-description {
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+} 
+
+.select-btn { 
+  width: 25px;
+  height: 25px;
+  font-size: 0.8rem;
+}
+
+.technology-description p {
+  line-height: 130%;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+}

@@ -1,0 +1,56 @@
+.crew-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4rem;
+    gap: 15%;
+    animation: fadeIn 1s;
+    transition: 1s;
+}
+
+.crew-description {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.crew-description h3 {
+    font-weight: lighter;
+}
+
+.crew-description h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.crew-description p {
+    line-height: 160%;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+#crew-img {
+    max-height: 70vh;
+}
+
+.selector-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5%;
+    gap: 0.7rem;
+}
+
+.crew-btn {
+    width: 15px;
+    height: 15px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    opacity: 0.5;
+}
+
+.crew-btn:hover {
+    opacity: 1;
+}
