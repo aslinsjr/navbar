@@ -4,7 +4,7 @@ const Home = () => {
 
   const body = document.querySelector("body")
 
-  body.style.backgroundImage = "url(public/background-home-desktop.jpg)"
+  body.style.backgroundImage = "url(/background-home-desktop.jpg)"
 
   return (
     <div className='home-container'>
