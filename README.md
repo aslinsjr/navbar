@@ -9,7 +9,7 @@ Essa é uma solução do desafio proposto por [ Saurabh Mhatre: ](https://saurab
 ### Links
 
 - Solução URL: [Repository](https://github.com/aslinsjr/navbar)
-- Live Site URL: [Live Page](https://navbar-rho-ten.vercel.app/technology)
+- Live Site URL: [Live Page](https://navbar-rho-ten.vercel.app/)
 
 ### Desenvolvido com
 
