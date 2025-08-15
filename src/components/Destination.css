@@ -1,3 +1,7 @@
+.destination {
+    background-image: url(../../public/background-destination-desktop.jpg);
+}
+
 .destination-container {
     display: flex;
     width: 100%;
@@ -10,7 +14,7 @@
 }
 
 #show-image {
-    width: 33%; 
+    height: 70dvh;
 }
 
 .select-container {
@@ -25,6 +29,7 @@
 .destination-select {
     display: flex;
     gap: 1rem;
+    
 }
 
 .destination-select button {
@@ -33,6 +38,7 @@
     color: aliceblue;
     cursor: pointer;
     font-weight: lighter;
+    font-size: 3dvh;
 }
 
 .destination-select button:hover {
@@ -40,8 +46,13 @@
     border-bottom: 1px solid aliceblue;
 }
 
+.select-container h2 {
+    font-size: 5dvh;
+}
+
 #description {
     font-weight: lighter;
+    font-size: 3dvh;
 }
 
 .destination-travel-info {
@@ -53,7 +64,7 @@
 
 .destination-travel-info p {
     margin-bottom: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 2dvh;
     font-weight: 200;
 }
 

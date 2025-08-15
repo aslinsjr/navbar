@@ -6,14 +6,11 @@ import { useState } from 'react'
 
 const Technology = () => {
 
-  const body = document.querySelector("body")
-  body.style.backgroundImage = "url(/background-technology-desktop.jpg)"
-
   const [technology, setTechnology] = useState(data.technology[0])
-
 
   return (
     <>
+    <div className="technology bg"></div>
       <h3 className='title'>Space Launch 101</h3>
       <div className='technology-container'>
         <div className="selec-technology">

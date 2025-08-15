@@ -1,5 +1,8 @@
+.home {
+    background-image: url('../../public/background-home-desktop.jpg');
+}
 
-.home-container {
+.text-container {
     max-width: 35%;
     color: aliceblue;
     margin-left: 4rem;
@@ -9,18 +12,20 @@
 
 .home-container h2 {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 2dvh;
     letter-spacing: .2rem;
+    font-weight: 600;
 }
 
 .home-container h1 {
-    font-size: 7rem;
-    margin: 1rem 0;
+    font-size: 20vh;
     text-transform: uppercase;
     letter-spacing: 1rem;
+    margin: -1rem 0 2rem 0;
 }
 
 .home-container p {
     line-height: 160%;
     letter-spacing: 0.1rem;
+    font-size: 2.5dvh;
 }

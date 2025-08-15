@@ -1,0 +1,17 @@
+.error-page {
+    background-image: url('../../public/error-page-bg.jpg');
+}
+
+.error-container {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+}
+
+#error-page-title {
+    max-width: 40%;
+    font-size: 15dvh;
+    color: white;
+    padding-left: 2rem;
+}

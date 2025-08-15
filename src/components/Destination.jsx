@@ -8,11 +8,9 @@ const Destination = () => {
 
   const [destination, setDestination] = useState(data.destinations[0])
 
-  const body = document.querySelector("body")
-  body.style.backgroundImage = "url(/background-destination-desktop.jpg)"
-
   return (
     <>
+    <div className="destination bg"></div>
       <h3 className='title'>Pick your destination</h3>
       <div className='destination-container'>
         <img  id="show-image"  src={destination.images.png.replace("./assets/destination/", " ")} alt="Destination Image" />

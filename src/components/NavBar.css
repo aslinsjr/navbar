@@ -6,6 +6,7 @@ nav {
     margin: 3rem 2rem;
     background-color: transparent;
     gap: 1rem;
+    z-index: 1;
 }
 
 .line {

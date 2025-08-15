@@ -6,9 +6,6 @@ import { useState } from 'react'
 
 const Price = () => {
 
-  const body = document.querySelector("body")
-  body.style.backgroundImage = "url(/background-crew-desktop.jpg)"
-
   const [index, setIndex] = useState(0)
   const [crew, setCrew] = useState(data.crew[index])
   
@@ -22,6 +19,7 @@ const Price = () => {
   }
   return (
   <>
+  <div className="crew bg"></div>
     <h3 className='title'>Meet your crew</h3>
     <div className='crew-container'>
       <div className="crew-description">

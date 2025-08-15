@@ -1,3 +1,7 @@
+.technology {
+    background-image: url('../../public/background-technology-desktop.jpg');
+}
+
 .technology-container {
     display: flex;
     padding: 0 4rem;
@@ -5,6 +9,8 @@
     justify-content: center;
     animation: fadeIn 1s;
     transition: 1s;
+    position: absolute;
+    bottom: 0;
 }
 
 .selec-technology {

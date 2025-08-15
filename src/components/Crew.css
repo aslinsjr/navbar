@@ -1,3 +1,7 @@
+.crew {
+    background-image: url(../../public/background-crew-desktop.jpg);
+}
+
 .crew-container {
     display: flex;
     align-items: center;
@@ -6,6 +10,8 @@
     gap: 15%;
     animation: fadeIn 1s;
     transition: 1s;
+    position: absolute;
+    bottom: 0;
 }
 
 .crew-description {
@@ -19,7 +25,7 @@
 }
 
 .crew-description h2 {
-    font-size: 4rem;
+    font-size: 10dvh;
     margin-bottom: 2rem;
 }
 
@@ -27,6 +33,7 @@
     line-height: 160%;
     font-weight: 300;
     font-size: 1.2rem;
+    font-size: 3dvh;
 }
 
 #crew-img {
@@ -39,6 +46,9 @@
     justify-content: center;
     margin-top: -5%;
     gap: 0.7rem;
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
 }
 
 .crew-btn {
